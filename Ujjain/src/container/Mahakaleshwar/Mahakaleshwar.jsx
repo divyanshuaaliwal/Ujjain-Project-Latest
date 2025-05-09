@@ -12,7 +12,7 @@ function Hero() {
                 <h2 className="text-xl md:text-3xl text-gray-800 font-semibold mb-8 leading-tight max-w-4xl mx-auto">
                     Everything you need to know about visiting the sacred Mahakaleshwar Temple
                 </h2>
-                <div className="flex justify-center mt-8">
+                <div className="flex justify-center mt-2">
                     <button className="bg-orange-600 hover:bg-orange-700 text-white font-medium py-3 px-6 rounded-lg transition-all shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-200">
                         Plan Your Visit
                     </button>
