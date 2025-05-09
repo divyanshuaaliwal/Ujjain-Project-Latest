@@ -9,10 +9,10 @@ export default function ChardhamTourUI() {
 
     const menuLinks = [
         { title: "Home", path: "/" },
-        { title: "Mahakaleshwar", path: "/mahakaleshwar" },
-        { title: "Harsiddhi Mata", path: "/harsiddhi-mata" },
-        { title: "Kal Bhairav", path: "/kal-bhairav" },
-        { title: "Mangalnath Mandir", path: "/mangalnath-mandir" },
+        { title: "Mahakaleshwar", path: "/destination/mahakaleshwar" },
+        { title: "Harsiddhi Mata", path: "/destination/harsiddhi-mata" },
+        { title: "Kal Bhairav", path: "/destination/kal-bhairav" },
+        { title: "Mangalnath Mandir", path: "/destination/mangalnath-mandir" },
         { title: "Hotels", path: "/hotels" },
         { title: "Blog", path: "/blog" },
         { title: "B2B Registration", path: "/b2b-registration" },

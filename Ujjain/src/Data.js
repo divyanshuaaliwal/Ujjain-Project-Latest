@@ -1,4 +1,3 @@
-
 import mahakal1 from "./images/mahakal1.png"
 import mahakal2 from "./images/mahakal2.jpg"
 import mahakal3 from "./images/mahakal3.jpg"
@@ -9,12 +8,10 @@ import mahakal7 from "./images/mahakal7.webp"
 import mahakal8 from "./images/mahakal8.jpg"
 import mahakal9 from "./images/mahakal9.jpg"
 
-
 import hotel1 from "./images/hotel1.jpg"
 import hotel2 from "./images/hotel2.webp"
 import hotel3 from "./images/hotel3.jpg"
 import hotel4 from "./images/hotel4.jpg"
-
 
 import package1 from "./images/package1.jpeg"
 import package2 from "./images/package2.jpeg"
@@ -24,7 +21,7 @@ import package4 from "./images/package4.jpeg"
 export const temples = [
     {
         id: 1,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Mahakaleshwar Temple",
         description: "One of the 12 Jyotirlingas, the Mahakaleshwar temple is dedicated to Lord Shiva and holds immense religious significance.",
         image: mahakal1,
@@ -38,7 +35,7 @@ export const temples = [
     },
     {
         id: 2,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Bhasma Aarti",
         description: "Experience the divine Bhasma Aarti, a unique ritual performed during the early hours of the morning.",
         image: mahakal2,
@@ -52,7 +49,7 @@ export const temples = [
     },
     {
         id: 3,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Mahakaleshwar Weather",
         description: "Plan your visit to Mahakaleshwar with our comprehensive weather guide for all seasons.",
         image: mahakal3,
@@ -65,7 +62,7 @@ export const temples = [
     },
     {
         id: 4,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Festivals at Mahakaleshwar",
         description: "Discover the vibrant festivals celebrated at Mahakaleshwar throughout the year.",
         image: mahakal4,
@@ -78,7 +75,7 @@ export const temples = [
     },
     {
         id: 5,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Temple History",
         description: "Explore the rich history and legends associated with the ancient Mahakaleshwar Temple.",
         image: mahakal5,
@@ -92,7 +89,7 @@ export const temples = [
     },
     {
         id: 6,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Temple Architecture",
         description: "Marvel at the magnificent architecture and spiritual design of the Mahakaleshwar Temple.",
         image: mahakal6,
@@ -105,7 +102,7 @@ export const temples = [
     },
     {
         id: 7,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "How to Reach",
         description: "Find the best routes and transportation options to reach Mahakaleshwar Temple from major cities.",
         image: mahakal7,
@@ -118,7 +115,7 @@ export const temples = [
     },
     {
         id: 8,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Accommodation Guide",
         description: "Browse through our curated list of hotels and dharamshalas near Mahakaleshwar Temple.",
         image: mahakal8,
@@ -131,7 +128,7 @@ export const temples = [
     },
     {
         id: 9,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         title: "Nearby Attractions",
         description: "Explore other places of interest near Mahakaleshwar Temple during your visit to Ujjain.",
         image: mahakal9,
@@ -147,7 +144,7 @@ export const temples = [
 export const hotels = [
     {
         id: 1,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         name: "Hotel Rudraksh",
         priceRange: "2500 - 5000",
         distance: "0.5 km",
@@ -156,7 +153,7 @@ export const hotels = [
     },
     {
         id: 2,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         name: "Shipra Residency",
         priceRange: "1800 - 3500",
         distance: "1.2 km",
@@ -165,7 +162,7 @@ export const hotels = [
     },
     {
         id: 3,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         name: "Ujjain Palace Hotel",
         priceRange: "3500 - 8000",
         distance: "0.8 km",
@@ -174,7 +171,7 @@ export const hotels = [
     },
     {
         id: 4,
-        location: "Mahakal",
+        location: "mahakaleshwar",
         name: "Hotel Imperial Grand",
         priceRange: "300 - 5000",
         distance: "4.8 km",
@@ -186,7 +183,7 @@ export const hotels = [
 export const packages = [
   {
     title: "Mahakal Darshan Package",
-    location: "Mahakal",
+    location: "mahakaleshwar",
     img: package1,
     duration: "1 Day",
     price: "₹999",
@@ -203,7 +200,7 @@ export const packages = [
   },
   {
     title: "Ujjain Spiritual Tour",
-    location: "Mahakal",
+    location: "mahakaleshwar",
     img: package2,
     duration: "2 Days / 1 Night",
     price: "₹2,999",
@@ -220,7 +217,7 @@ export const packages = [
   },
   {
     title: "Complete Ujjain Darshan",
-    location: "Mahakal",
+    location: "mahakaleshwar",
     img: package3,
     duration: "3 Days / 2 Nights",
     price: "₹4,999",
@@ -236,7 +233,7 @@ export const packages = [
   },
   {
     title: "Ujjain & Omkareshwar Jyotirling Yatra",
-    location: "Mahakal",
+    location: "mahakaleshwar",
     img: package4,
     duration: "3 Days / 2 Nights",
     price: "₹5,499",

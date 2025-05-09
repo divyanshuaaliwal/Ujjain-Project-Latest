@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Calendar, Clock, Eye } from 'lucide-react';
 
-function Card({
+export function Card({
     title = "The History of Mahakaleshwar",
     description = "Explore the rich history and cultural significance of one of India's most revered Jyotirlingas, dating back to ancient times.",
     image = "/api/placeholder/400/320",
@@ -68,6 +68,3 @@ function Card({
         </div>
     );
 }
-
-
-export default Card;  
