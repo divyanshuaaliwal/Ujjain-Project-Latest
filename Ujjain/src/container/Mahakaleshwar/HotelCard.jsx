@@ -112,52 +112,5 @@ function HotelCard({
   );
 }
 
-// Example component showing multiple hotels
-export function HotelList() {
-  const hotels = [
-    {
-      name: "Shri Mahakal Residency",
-      priceRange: "1,500 - 3,000",
-      distance: "0.3 km",
-      rating: 4.7,
-      reviews: 186,
-      amenities: ["Free WiFi", "Breakfast", "Restaurant"],
-      offerPercent: 15
-    },
-    {
-      name: "Hotel Ujjain Palace",
-      priceRange: "2,000 - 4,500",
-      distance: "0.5 km",
-      rating: 4.9,
-      reviews: 213,
-      amenities: ["Free WiFi", "Breakfast", "Restaurant"],
-      offerPercent: 0
-    },
-    {
-      name: "Rudraksh Inn",
-      priceRange: "1,200 - 2,500",
-      distance: "0.8 km",
-      rating: 4.3,
-      reviews: 142,
-      amenities: ["Free WiFi", "Restaurant"],
-      offerPercent: 10
-    }
-  ];
-
-  return (
-    <div className="bg-gray-50 py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">Recommended Hotels</h2>
-        <p className="text-gray-600 mb-8 text-center">Comfortable stays near Mahakaleshwar Temple</p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {hotels.map((hotel, index) => (
-            <HotelCard key={index} {...hotel} />
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export default HotelCard;
