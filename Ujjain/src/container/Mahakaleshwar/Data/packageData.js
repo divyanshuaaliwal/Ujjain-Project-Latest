@@ -1,6 +1,12 @@
-export const packages = [
+import p1 from "../assets/p1.jpeg"
+import p2 from "../assets/p2.jpeg"
+import p3 from "../assets/p3.png"
+import p4 from "../assets/p4.jpeg"
+
+export const packageData = [
   {
     title: "Mahakal Darshan Package",
+    img: p1,
     duration: "1 Day",
     price: "₹999",
     originalPrice: "₹1,299",
@@ -16,6 +22,7 @@ export const packages = [
   },
   {
     title: "Ujjain Spiritual Tour",
+    img: p2,
     duration: "2 Days / 1 Night",
     price: "₹2,999",
     originalPrice: "₹3,499",
@@ -31,6 +38,7 @@ export const packages = [
   },
   {
     title: "Complete Ujjain Darshan",
+    img: p3,
     duration: "3 Days / 2 Nights",
     price: "₹4,999",
     originalPrice: "₹5,999",
@@ -45,6 +53,7 @@ export const packages = [
   },
   {
     title: "Ujjain & Omkareshwar Jyotirling Yatra",
+    img: p4,
     duration: "3 Days / 2 Nights",
     price: "₹5,499",
     originalPrice: "₹6,499",
