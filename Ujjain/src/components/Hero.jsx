@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight, Mail   } from 'lucide-react';
 import React, { useState } from 'react';
+import Tours from './Tours';
 // import {VideoCouresel} from "./VideoCourosel"
 const TourCard = ({
     image,
@@ -166,75 +167,7 @@ const Hero = () => {
 
                 {/* <VideoCouresel/> */}
 
-              {/* Tour Packages Section */}
-              <div className="py-12 bg-white">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-center mb-2">
-                        Chardham Yatra Tour Helicopter Packages
-                        <div className="w-64 h-1 bg-red-600 mx-auto mt-2"></div>
-                    </h2>
-                    <p className="text-center mb-8 mt-4">
-                        Get the most effective and the best Char Dham Yatra packages.
-                        <a href="#" className="text-blue-600 hover:underline ml-2">Read More</a>
-                    </p>
-
-                    <div className="container mx-auto px-4 py-8">
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        <TourCard
-            image="/images/chardham-heli.jpg"
-            title="Chardham Yatra"
-            subtitle="By Helicopter"
-            duration="6 Days & 5 Nights"
-            route="Dehradun → Yamunotri → Gangotri"
-            price="2,25,000"
-            originalPrice="2,30,000"
-            itinerary
-            bgColor="bg-blue-900"
-            textColor="text-white"
-            showHelicopter
-        />
-        <TourCard
-            image="/images/chardham-delhi.jpg"
-            title="Chardham Yatra"
-            subtitle="From Delhi"
-            duration="11 Days & 10 Nights"
-            route="Delhi → Rishikesh → Yamunotri"
-            price="40,900"
-            originalPrice="45,000"
-            itinerary
-            bgColor="bg-white"
-            textColor="text-black"
-        />
-        <TourCard
-            image="/images/chardham-haridwar.jpg"
-            title="Chardham Yatra"
-            subtitle="From Haridwar"
-            duration="10 Days & 9 Nights"
-            route="Haridwar → Yamunotri → Gangotri"
-            price="40,300"
-            originalPrice="45,000"
-            itinerary
-            bgColor="bg-white"
-            textColor="text-black"
-        />
-        <TourCard
-            image="/images/badrinath-kedarnath.jpg"
-            title="Badrinath Kedarnath"
-            subtitle="By Helicopter"
-            duration="1 Day (Same Day)"
-            route="Dehradun → Kedarnath → Badrinath"
-            price="1,25,000"
-            originalPrice="1,30,000"
-            itinerary
-            bgColor="bg-blue-900"
-            textColor="text-white"
-            showHelicopter
-        />
-    </div>
-</div>
-
-                </div>
-            </div>
+                    <Tours/>
 
                 {/* Chat Button - Fixed */}
                 <div className="fixed bottom-6 right-6 z-50">

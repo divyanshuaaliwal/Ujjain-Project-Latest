@@ -6,7 +6,7 @@ const Mahalakeshwar = () => {
     return (
         <>
             <Hero/>  
-            <CardGrid/>          
+            <CardGrid/>  
             <Hotels/>
         </>
     )
