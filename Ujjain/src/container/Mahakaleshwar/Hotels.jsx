@@ -4,8 +4,8 @@ import { hotelData } from './Data/hotelData';
 
 function Hotels() {
   return (
-    <section className="py-16 bg-slate-50">
-      <div className="container mx-auto px-4 md:px-6 max-w-6xl">
+    <section className="py-10 bg-slate-50">
+      <div className="container w-[95vw] mx-auto px-4 md:px-6">
         <h1 className="text-4xl md:text-5xl text-orange-600 font-bold text-center mb-4">
           Mahakaleshwar Hotels
         </h1>
@@ -14,7 +14,7 @@ function Hotels() {
           Comfortable stays near the temple for a peaceful pilgrimage experience
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           {hotelData.map((hotel) => (
             <HotelCard 
               key={hotel.id}
